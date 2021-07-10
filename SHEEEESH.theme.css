@@ -15,7 +15,6 @@
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
 
 :root {
-  --background: url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/_res/background.jpg');
   --backgroundsize: cover;
   --backgroundblur: 0px;
   --popout: var(--background);
