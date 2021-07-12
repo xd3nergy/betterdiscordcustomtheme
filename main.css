@@ -5,6 +5,12 @@
 :root .buttons-cl5qTG {
   transition: opacity 150ms;
 }
+:root {
+--background:					url("https://i.imgur.com/UKJnGDm.jpg");
+--backgroundposition:			center;
+--backgroundsize:				cover;
+--backgroundblur:				unset;
+}
 :root .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp[aria-expanded=false] {
   position: fixed;
   bottom: 26.5px;
@@ -2135,4 +2141,22 @@
   border-radius: 5px;
   padding: 3px;
   margin: 3px;
+}
+
+body::before,
+body::after {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	pointer-events: none;
+	z-index: -1;
+}
+body::before {
+	background: var(--background) var(--backgroundposition)/var(--backgroundsize);
+}
+body::after {
+	backdrop-filter: blur(var(--backgroundblur));
 }
