@@ -37,6 +37,7 @@
   height: 40px;
   background-color: var(--background-secondary);
   border-radius: calc(var(--avatar-radius) + 2px);
+  background-image: var(--backgroundImageL);
 }
 :root .typing-2GQL18 {
   left: 66px;
