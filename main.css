@@ -2160,3 +2160,86 @@ body::before {
 body::after {
 	backdrop-filter: blur(var(--backgroundblur));
 }
+
+.emptyChannelIcon-cc932w {									/* welcomemessage		empty channelicon					*/
+	background-color: rgba(var(--transparencycolor), .4);
+}
+.card-1yV8cG {												/* welcomemessage		first steps card					*/
+	background-color: rgba(var(--transparencycolor), .3);
+}
+.card-1yV8cG:hover {
+	background-color: rgba(var(--transparencycolor), .5);
+}
+
+.button-18p_f6:hover {										/* welcomemessage		edit channel						*/
+	background-color: rgb(var(--accentcolor));
+	color: var(--interactive-active);
+	text-shadow: 1px 1px var(--textshadow);
+}
+
+#app-mount .role-1P70N6 {									/* welcomemessage		role								*/
+	background: transparent;
+	border-color: rgba(var(--textbrighter), .6);
+	border-radius: 5px;
+	height: 22px;
+	padding: 0 5px;
+	position: relative;
+}
+#app-mount .role-1P70N6[style*="border-color: rgba(185, 187, 190, .6)"] {
+	border-color: rgba(var(--textbrighter), .6) !important;
+}
+#app-mount .role-1P70N6 .roleColor-fHISxl {					/* welcomemessage		rolecircle							*/
+	position: absolute;
+	background-color: var(--text-normal);
+	border-radius: 3px;
+	opacity: 0.5;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+#app-mount .role-1P70N6:hover .roleColor-fHISxl {
+	opacity: 0.8;
+}
+#app-mount .role-1P70N6 .roleColor-fHISxl[style*="background-color: rgb(185, 187, 190)"] {
+	background-color: var(--text-normal) !important;
+}
+
+.divider-JfaTT5.hasContent-1cNJDh {							/* divider				hascontent							*/
+	border-color: transparent;
+}
+.content-1o0f9g {											/* divider				content								*/
+	background-color: rgba(var(--transparencycolor), .2);
+	width: 100%;
+	text-align: center;
+}
+
+.hasMore-3POVhk:hover {
+	background-color: rgba(var(--transparencycolor), .2);
+}
+.jumpToPresentBar-G1R9s6 {									/* bar					jumptopresent						*/
+	background-color: transparent;
+	overflow: hidden;
+	opacity: 1;
+}
+.jumpToPresentBar-G1R9s6::before,
+.jumpToPresentBar-G1R9s6::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	pointer-events: none;
+	z-index: -1;
+}
+.jumpToPresentBar-G1R9s6::before {
+	background: var(--background) var(--backgroundposition)/var(--backgroundsize);
+	background-attachment: fixed;
+}
+.jumpToPresentBar-G1R9s6::after {
+	background-color: rgba(var(--transparencycolor), calc(var(--transparencyalpha) + 0.2));
+	backdrop-filter: blur(var(--backgroundblur));
+}
