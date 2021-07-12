@@ -1,0 +1,2 @@
+#betterdiscordcustomtheme
+ewwwwwwwwwwwwwwwww
